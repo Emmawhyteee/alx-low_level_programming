@@ -18,7 +18,7 @@
 
 
 
-int main(void)
+int main(void);
 
 {
 
@@ -26,7 +26,7 @@ int main(void)
 
 
 
-for (low = 'a'; low <= 'z'; low++);
+                    for (low = 'a'; low <= 'z'; low++);
 
 						putchar(low);
 
