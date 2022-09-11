@@ -14,7 +14,7 @@
  *
  *    * Return: Always 0 (Success)
  *
- *     */
+ **/
 
 
 
@@ -26,7 +26,7 @@ int main(void)
 
 
 
-			for (low = 'a'; low <= 'z'; low++)
+for (low = 'a'; low <= 'z'; low++);
 
 						putchar(low);
 
