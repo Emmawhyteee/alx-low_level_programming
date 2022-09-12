@@ -4,7 +4,7 @@
  *  * main - Entry point
  *   *
  *    * Return: Always 0 (Success)
- *     */
+ **/
 int main(void)
 {
 		int d = 48;
@@ -14,8 +14,8 @@ int main(void)
 								putchar(d);
 										if (d != 57)
 													{
-																	putchar(',');
-																				putchar(' ');
+													putchar(',');
+																		putchar(' ');
 																						}
 												d++;
 													}
