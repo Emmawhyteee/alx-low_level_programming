@@ -1,31 +1,16 @@
 #include "main.h"
 
-
-
 /**
+ * mul - returns result of multiplication between 2 integers
+ *@a: first multiplier
+ *@b: second multiplier
  *
- *  * mul - returns result of multiplication between 2 integers
- *
- *   *@a: first multiplier
- *
- *    *@b: second multiplier
- *
- *     *
- *
- *      * Return: multiplication result
- *
- *       */
-
+ * Return: multiplication result
+ */
 int mul(int a, int b)
-
 {
+	int result;
 
-		int result;
-
-
-
-			result = a * b;
-
-				return (result);
-
+	result = a * b;
+	return (result);
 }
