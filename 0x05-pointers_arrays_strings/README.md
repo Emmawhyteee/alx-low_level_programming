@@ -1,1 +1,1 @@
-Write a function that reverses a string.
+write a function that prints every other character of a string, starting  with the first character, followed by a line
