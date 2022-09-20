@@ -1,50 +1,25 @@
 #include "main.h"
-
 #include "2-strlen.c"
-
 /**
+ * _strcpy - main function to copy
  *
- *  * _strcpy - main function to copy
+ * @dest: destination to copy
+ * @src: src
  *
- *   *
- *
- *    * @dest: destination to copy
- *
- *     * @src: src
- *
- *      *
- *
- *       * Return: a character value
- *
- *        */
-
+ * Return: a character value
+ */
 char *_strcpy(char *dest, char *src)
-
 {
+	int i;
 
-		int i;
-
-
-
-			for (i = 0; i <= _strlen(src); i++)
-
-					{
-
-								dest[i] = src[i];
-
-									}
-
-				return (dest);
-
+	for (i = 0; i <= _strlen(src); i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }
-
 Footer
-
 © 2022 GitHub, Inc.
-
 Footer navigation
-
 Terms
-
 Privacy
-
