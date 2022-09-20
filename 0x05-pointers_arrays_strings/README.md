@@ -1,1 +1,1 @@
-Write a function that copies the string pointed to by src, including the terminating null byte
+Create a program that generates random valid passwords for the program 101-crackme.
