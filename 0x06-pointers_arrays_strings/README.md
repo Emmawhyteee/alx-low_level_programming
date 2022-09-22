@@ -1,1 +1,1 @@
-This is task 10
+Write a function that adds two numbers.
