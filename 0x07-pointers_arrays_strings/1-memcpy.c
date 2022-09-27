@@ -1,37 +1,17 @@
 #include "main.h"
 
-#include <string.h>
-
-
-
 /**
- *
- *  * _memset -> this memory set function
- *
- *   * @s: a string
- *
- *    * @b: a character
- *
- *     * @n: an interger
- *
- *      * Return: a string
- *
- *       */
-
-char *_memset(char *s, char b, unsigned int n)
-
+* _memcpy -> memory copy
+* @dest: is destination memory
+* @src: is source memory
+* @n: number of bytes to be copied
+* Return: string copied from source
+*/
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	unsigned int a;
 
-		unsigned int a;
-
-
-
-			for (a = 0; a < n; a++)
-
-						s[a] = b;
-
-
-
-				return (s);
-
+	for (a = 0; a < n; a++)
+		dest[a] = src[a];
+	return (dest);
 }
